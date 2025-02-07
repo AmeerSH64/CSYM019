@@ -1,0 +1,33 @@
+body {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 15% 75% 10%;
+    grid-template-areas: "header header header"
+                        "nav main aside"
+                        "footer footer footer";
+}
+
+header {
+    grid-area: header;
+    background-color: blue;
+    padding: 10px;
+}
+
+nav {
+    background-color: yellow;
+}
+
+main {
+    color: white;
+    background-color: darkblue;
+    padding: 10px;
+}
+
+aside {
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+footer {
+    background-color: darkgreen;
+}
