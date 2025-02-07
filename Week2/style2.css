@@ -1,0 +1,19 @@
+body {
+    display: flex;
+}
+
+section {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-left: 10px;
+    border-radius: 15px;
+}
+
+.csym019 {
+    background-color: lightblue;
+}
+
+.csym015 {
+    background-color: yellow;
+}
