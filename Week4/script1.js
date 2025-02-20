@@ -9,11 +9,23 @@ function print5() {
 print5();
 
 function load() {
-    var element = document.getElementById("page-heading");
-    element.firstChild.nodeValue = "New heading";
-
-    var element = document.getElementById("paragraph");
-    element.firstChild.nodeValue = "Paragraph text";
+    var heading = document.getElementById("page-heading");
+    heading.firstChild.nodeValue = "New Heading";
 }
 
-document.addEventListener("click", load);
+function unload() {
+    var heading = document.getElementById("page-heading");
+    heading.firstChild.nodeValue = "Page Heading";
+}
+
+function load2() {
+    var paragraph = document.getElementById("paragraph");
+    paragraph.firstChild.nodeValue = "Paragraph text";
+}
+
+var heading = document.getElementById("page-heading");
+var paragraph = document.getElementById("paragraph");
+
+heading.addEventListener("mouseenter", load);
+heading.addEventListener("mouseleave", unload);
+paragraph.addEventListener("click", load2);
