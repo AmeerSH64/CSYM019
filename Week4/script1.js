@@ -7,3 +7,9 @@ function print5() {
 }
 
 print5();
+
+var element = document.getElementById("page-heading");
+element.firstChild.nodeValue = "New heading";
+
+var element = document.getElementById("paragraph");
+element.firstChild.nodeValue = "Paragraph text";
