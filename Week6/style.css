@@ -1,0 +1,33 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: grid;
+
+}
+
+.header {
+    display: flex;
+    position: absolute;
+    top: 0;
+    justify-content: center;
+    background-color: rgb(236, 236, 236);
+    width: 100vw;
+    box-shadow: 0 4px 20px rgba(84, 84, 84, 0.35);
+}
+
+#cntlSize {
+    width: 40%;
+    height: 30%;
+    padding: 20px 20px 20px 20px;
+    margin-top: 60px;
+}
+
+#year-button-10 {
+    display: flex;
+    background-color: red;
+    width: fit-content;
+    height: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(84, 84, 84, 0.35);
+}
