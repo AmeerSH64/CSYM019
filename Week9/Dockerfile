@@ -1,4 +1,4 @@
-FROM php:8.2-cli
+FROM php:7.4-cli
 COPY . /usr/src/myapp
 WORKDIR /usr/src/myapp
-CMD [ "php", "./your-script.php" ]
+CMD [ "php", "./index.php" ]
